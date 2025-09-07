@@ -7,6 +7,15 @@
   background: #f3f3f3;
 }
 
+.container h1 {
+  margin: 0;
+}
+
+.container .footnote {
+  margin: 0;
+  font-size: 0.7rem;
+}
+
 .heart-wrapper {
   position: relative;
   width: 400px;
@@ -15,28 +24,36 @@
 
 .heart {
   position: absolute;
-  inset: 0;
   width: 100%;
   height: 100%;
   cursor: pointer;
 }
 
-.heart.left {
+.heart-wrapper p {
+  position: absolute;
+  top: 150px;
+  left: 25%;
+  width: 50%;
+  z-index: 2;
+  text-align: center;
+  color: white;
+}
+
+.heart-left {
   clip-path: polygon(0% 0%, 50% 0%, 50% 100%, 0% 100%);
 }
 
-.heart.right {
+.heart-right {
   clip-path: polygon(50% 0%, 100% 0%, 100% 100%, 50% 100%);
 }
 
 /* Overlay text */
 .text {
   position: absolute;
-  top: 35%;
+  top: 25%;
   width: 50%;
   text-align: center;
   font-weight: bold;
-  font-size: 1.2rem;
   color: white;
   pointer-events: none;
   opacity: 1;
