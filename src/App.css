@@ -107,7 +107,7 @@
 }
 
 /* Samsung Galaxy Z Flip 4 portrait mode */
-@media only screen and (min-width: 360px) and (max-width: 840px) and (orientation: portrait) {
+@media only screen and (min-width: 360px) and (max-width: 940px) and (orientation: portrait) {
   /* Your styles here */
   .container {
     min-height: 100vh;
@@ -154,12 +154,12 @@
   }
 
   .poem.right {
-    height: 140px;
+    height: 150px;
     top: 89%;
   }
 
   .poem.left {
-    height: 150px;
+    height: 160px;
     top: -30%;
   }
 
