@@ -41,7 +41,7 @@ function App() {
             </pattern>
           </defs>
           <path
-            d="M12 21 C 6 17, 0 12, 5 6.5 C 8 3, 12 5.5, 12 9Z"
+            d="M12 21 C 7 17, 0 12, 5 6.5 C 8 3, 12 5.5, 12 9Z"
             fill={hovered === "left" ? "url(#left-img)" : "#D9595F"}
           />
         </svg>
@@ -95,7 +95,7 @@ function App() {
           </div>
         )}
       </div>
-      <div>
+      <div className="footnotes">
         <p className="footnote">
           * Porque un amor como el nuestro merece estar en todo tipo de arte, incluso el digital.
         </p>

@@ -1,7 +1,7 @@
 .container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   min-height: 100vh;
 }
@@ -10,17 +10,23 @@
   margin: 0;
   font-style: italic;
   text-align: center;
+  font-size: 3rem;
+  margin: 0.75rem;
+}
+
+.container .footnotes {
+  margin: 0.75rem;
 }
 
 .container .footnote {
   margin: 0;
-  font-size: 0.7rem;
+  font-size: 1rem;
 }
 
 .heart-wrapper {
   position: relative;
-  width: 400px;
-  height: 400px;
+  width: 800px;
+  height: 800px;
 }
 
 .heart {
@@ -32,12 +38,13 @@
 
 .heart-wrapper .heart-text {
   position: absolute;
-  top: 150px;
+  top: 22rem;
   left: 25%;
   width: 50%;
   z-index: 2;
   text-align: center;
   color: white;
+  font-size: 1.5rem;
 }
 
 .heart-left {
@@ -51,7 +58,7 @@
 /* Overlay text */
 .text {
   position: absolute;
-  top: 25%;
+  top: 30%;
   width: 50%;
   text-align: center;
   font-weight: bold;
@@ -59,21 +66,22 @@
   pointer-events: none;
   opacity: 1;
   transition: opacity 0.3s ease;
+  font-size: 2rem;
 }
 
 .text.left {
-  left: 2rem;
+  left: 3rem;
 }
 
 .text.right {
-  right: 2rem;
+  right: 3.5rem;
 }
 
 .poem {
   position: absolute;
-  top: 20%;
-  width: 220px;
-  height: 260px;
+  top: 30%;
+  width: 280px;
+  height: 360px;
   padding: 10px;
   text-align: center;
   pointer-events: none;
@@ -95,6 +103,65 @@
 
 .poem p {
   color: black;
-  font-size: 0.9rem;
-  margin: 0;
+  font-size: 1.25rem;
+}
+
+/* Samsung Galaxy Z Flip 4 portrait mode */
+@media only screen and (min-width: 360px) and (max-width: 840px) and (orientation: portrait) {
+  /* Your styles here */
+  .container {
+    height: 100vh;
+    min-width: 100vw;
+    width: 100vw;
+  }
+
+  .container h1 {
+    font-size: 2rem;
+  }
+
+  .container .footnote {
+    text-align: center;
+  }
+
+  .heart-wrapper {
+    width: 400px;
+    height: 400px;
+  }
+
+  .heart-wrapper .heart-text {
+    top: 10rem;
+    font-size: 1rem;
+  }
+
+  /* Overlay text */
+  .text {
+    font-size: 1rem;
+  }
+
+  .text.left {
+    left: 2rem;
+  }
+
+  .text.right {
+    right: 2rem;
+  }
+
+  .poem {
+    left: 20% !important;
+    width: 220px;
+    height: 160px;
+    padding: 10px;
+  }
+
+  .poem.right {
+    top: 90%;
+  }
+
+  .poem.left {
+    top: -30%;
+  }
+
+  .poem p {
+    font-size: 0.75rem;
+  }
 }
