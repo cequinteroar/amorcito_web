@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/amorcito_web/static/css/main.b804b6b9.css",
+    "main.css": "/amorcito_web/static/css/main.9c524cec.css",
     "main.js": "/amorcito_web/static/js/main.07e3f39f.js",
     "static/js/453.784c14f2.chunk.js": "/amorcito_web/static/js/453.784c14f2.chunk.js",
     "static/media/Cesar.jpg": "/amorcito_web/static/media/Cesar.3cb730e869776dd7f6f6.jpg",
     "static/media/Lau1.jpg": "/amorcito_web/static/media/Lau1.6ef1e5f40d7679debaf6.jpg",
     "index.html": "/amorcito_web/index.html",
-    "main.b804b6b9.css.map": "/amorcito_web/static/css/main.b804b6b9.css.map",
+    "main.9c524cec.css.map": "/amorcito_web/static/css/main.9c524cec.css.map",
     "main.07e3f39f.js.map": "/amorcito_web/static/js/main.07e3f39f.js.map",
     "453.784c14f2.chunk.js.map": "/amorcito_web/static/js/453.784c14f2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b804b6b9.css",
+    "static/css/main.9c524cec.css",
     "static/js/main.07e3f39f.js"
   ]
 }
