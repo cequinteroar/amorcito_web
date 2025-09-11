@@ -1,8 +1,7 @@
 {
   "name": "amorcito_web",
-  "version": "0.1.3",
+  "version": "0.1.6",
   "homepage": "https://cequinteroar.github.io/amorcito_web",
-  "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.8.0",
@@ -20,7 +19,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b main -d build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
