@@ -150,15 +150,16 @@
   .poem {
     left: 20% !important;
     width: 220px;
-    height: 150px;
     padding: 10px;
   }
 
   .poem.right {
-    top: 85%;
+    height: 140px;
+    top: 89%;
   }
 
   .poem.left {
+    height: 150px;
     top: -30%;
   }
 
