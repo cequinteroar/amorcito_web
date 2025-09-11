@@ -1,6 +1,6 @@
 {
   "name": "amorcito_web",
-  "version": "0.1.6",
+  "version": "0.1.8",
   "homepage": "https://cequinteroar.github.io/amorcito_web",
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
